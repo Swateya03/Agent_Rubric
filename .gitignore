@@ -39,11 +39,12 @@ data/test_*.db
 data/test_*.jsonl
 # Note: data/sample_responses.json IS committed (example input for testing)
 
-# Generated output directories (at root level)
-checkpoints/
+# Generated output directories (at root level, LOCAL ONLY - not committed)
+/checkpoints/
 /*.safetensors
 /*.bin
 # Note: outputs/ IS committed (contains empirical results, checkpoint, datasets for reproducibility)
+# Specifically: outputs/model-training/checkpoints/ is committed (trained model checkpoint)
 
 # Legacy paths (if any old code still uses them)
 training/checkpoints/

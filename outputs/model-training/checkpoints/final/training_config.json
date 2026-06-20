@@ -1,0 +1,9 @@
+{
+  "model_name": "Qwen/Qwen2-1.5B",
+  "lora_r": 8,
+  "epochs": 3,
+  "learning_rate": 2e-05,
+  "batch_size": 1,
+  "gradient_accumulation": 8,
+  "max_length": 512
+}
