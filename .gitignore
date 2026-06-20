@@ -41,9 +41,9 @@ data/test_*.jsonl
 
 # Generated output directories (at root level)
 checkpoints/
-outputs/
-*.safetensors
-*.bin
+/*.safetensors
+/*.bin
+# Note: outputs/ IS committed (contains empirical results, checkpoint, datasets for reproducibility)
 
 # Legacy paths (if any old code still uses them)
 training/checkpoints/

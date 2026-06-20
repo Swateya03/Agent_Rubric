@@ -1,0 +1,48 @@
+{
+  "model_scores": [
+    0.9994,
+    0.9994,
+    0.9994,
+    0.9994,
+    0.9994,
+    0.9994,
+    0.9994,
+    0.9994
+  ],
+  "baseline_scores": [
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "gold_scores": [
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8
+  ],
+  "metrics": {
+    "n_samples": 8,
+    "spearman_model": NaN,
+    "spearman_baseline": NaN,
+    "p_value_model": NaN,
+    "p_value_baseline": NaN,
+    "win_rate": 1.0,
+    "tie_rate": 0.0,
+    "loss_rate": 0.0,
+    "mae_model": 0.1994,
+    "mae_baseline": 0.3,
+    "mean_model_score": 0.9994,
+    "mean_baseline_score": 0.5,
+    "mean_gold_score": 0.8
+  },
+  "conclusion": "NO - Static baseline (corr=nan) outperforms trained model (corr=nan) on this eval set. Win-rate: 100.0%. Consider data quality review or more training epochs."
+}
