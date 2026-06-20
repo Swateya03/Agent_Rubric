@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentrubric"
+version = "0.1.0"
+description = "Multi-agent LangGraph system for evaluating model responses with adaptive rubrics"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = ["pytest>=9.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentrubric*"]
+
+[tool.pytest.ini_options]
+testpaths = ["agentrubric/tests"]
+pythonpath = ["agentrubric"]
+markers = [
+    "integration: marks tests that make real API calls (deselect with -m 'not integration')",
+]

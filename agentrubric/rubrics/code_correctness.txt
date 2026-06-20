@@ -1,0 +1,28 @@
+# Code Correctness Rubric — code functionality and correctness evaluation
+
+CRITERIA:
+1. Syntax Validity (weight: 0.25)
+   Does the code parse without syntax errors? Are all imports valid and accessible?
+   Deduct points for each syntax error, type mismatch, or missing dependency.
+
+2. Logic Correctness (weight: 0.40)
+   Does the code solve the stated problem correctly? Are edge cases handled (empty input, null, boundary values)?
+   Does it produce correct output for typical and edge-case inputs?
+
+3. Execution Safety (weight: 0.20)
+   Does the code run without runtime errors (IndexError, TypeError, NameError, ZeroDivisionError)?
+   Does it handle None/empty/invalid input gracefully without crashing?
+
+4. Completeness (weight: 0.15)
+   Does it address all requirements in the problem statement?
+   Are return types and output formats correct?
+
+SCORING:
+Each criterion is scored 0.0 to 1.0, where:
+- 1.0 = fully meets criterion with no issues
+- 0.7 = mostly correct with minor issues
+- 0.4 = partially correct with significant issues
+- 0.0 = does not meet criterion or fundamentally broken
+
+Final score = weighted sum of all criteria scores (0.0 to 1.0).
+Passing threshold: 0.6 (60%)

@@ -1,0 +1,18 @@
+# Coding rubric — code generation response quality
+
+CRITERIA:
+1. Correctness (weight: 0.40)
+   Does the code solve the problem correctly and handle edge cases?
+
+2. Code style (weight: 0.20)
+   Is the code readable, well-named, and follows conventions?
+
+3. Efficiency (weight: 0.20)
+   Is the solution reasonably efficient in time and space?
+
+4. Explanation quality (weight: 0.20)
+   Does the response explain what the code does and why?
+
+SCORING:
+Each criterion is scored 0.0 to 1.0.
+Final score = weighted sum of all criteria scores.

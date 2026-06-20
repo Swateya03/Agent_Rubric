@@ -1,0 +1,15 @@
+# Helpfulness rubric — evaluates how helpful a response is
+
+CRITERIA:
+1. Directness (weight: 0.35)
+   Does the response give a direct, actionable answer without unnecessary padding?
+
+2. Practicality (weight: 0.35)
+   Are the suggestions or information practically usable in the real world?
+
+3. Depth (weight: 0.30)
+   Does the response go beyond surface-level to provide genuinely useful detail?
+
+SCORING:
+Each criterion is scored 0.0 to 1.0.
+Final score = weighted sum of all criteria scores.

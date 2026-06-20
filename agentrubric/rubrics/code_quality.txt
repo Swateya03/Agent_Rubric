@@ -1,0 +1,32 @@
+# Code Quality Rubric — code maintainability, efficiency, and style evaluation
+
+CRITERIA:
+1. Readability & Naming (weight: 0.30)
+   Are variable and function names clear and descriptive (not x, y, temp, foo)?
+   Is the code well-organized with consistent indentation and formatting?
+   Are comments provided where logic is non-obvious or complex?
+
+2. Efficiency (weight: 0.30)
+   Is the time complexity appropriate for the problem (no unnecessary O(n³) when O(n) is possible)?
+   Is the space complexity reasonable and not wasteful?
+   Are inefficient patterns (redundant loops, repeated computations) avoided?
+
+3. Idiomatic Code (weight: 0.25)
+   Does the code use language idioms and built-ins effectively?
+   Does it follow PEP 8 style (Python), ESLint (JavaScript), or equivalent conventions?
+   Are standard library functions leveraged where appropriate?
+
+4. Error Handling & Robustness (weight: 0.15)
+   Does the code gracefully handle invalid or unexpected inputs?
+   Are edge cases considered and addressed?
+   Does it fail visibly (with clear error messages) rather than silently?
+
+SCORING:
+Each criterion is scored 0.0 to 1.0, where:
+- 1.0 = exemplary code quality, highly maintainable
+- 0.7 = good code with minor style/efficiency issues
+- 0.4 = acceptable but could be cleaner or more efficient
+- 0.0 = poor quality, difficult to maintain
+
+Final score = weighted sum of all criteria scores (0.0 to 1.0).
+Passing threshold: 0.6 (60%)

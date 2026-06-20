@@ -1,0 +1,18 @@
+# Default rubric — general LLM response quality
+
+CRITERIA:
+1. Relevance (weight: 0.30)
+   Does the response directly address the question asked?
+
+2. Accuracy (weight: 0.30)
+   Is the information factually correct and well-reasoned?
+
+3. Clarity (weight: 0.20)
+   Is the response clearly written and easy to follow?
+
+4. Completeness (weight: 0.20)
+   Does the response cover the key aspects of the question?
+
+SCORING:
+Each criterion is scored 0.0 to 1.0.
+Final score = weighted sum of all criteria scores.
